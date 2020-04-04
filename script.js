@@ -21,10 +21,10 @@ function criarBG() {
 
 function criarCobrinha() {
     for (i = 0; i < snake.length; i++) {
+        //aqui ocontexto está ligado à cobrinha
         context.fillStyle = "green";
         context.fillRect(snake[i].x, snake[i].y, box, box)
     }
-    //aqui ocontexto está ligado à cobrinha
 }
 
 function drawFood() {
